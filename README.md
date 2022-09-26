@@ -19,7 +19,7 @@ Activate the new environment with ```conda activate pytorch```
 Go to the pytorch official [website](https://pytorch.org/)
 
 
-[Drag Racing](/home/zareef/Pictures/pytorch.png)
+[INSTALL PYTORCH](https://github.com/ZareefJafar/DeepWPT/blob/main/pytorch.png)
 
 
 Run the following command in the terminal to install ciao, caldb and some associated software in a conda environment named “ciao-4.14” or anything you like.
