@@ -1,6 +1,6 @@
 # DeepWPT
 
-### Hardware
+## Hardware
 GPU: ZOTAC GAMING GeForce RTX 3060 Ti Twin Edge
 CPU: AMD Ryzen 9 3900X desktop processor
 RAM: 16GB 3200MHz DDR4
