@@ -11,7 +11,7 @@ Package management system:  conda (click [here](https://cloudsmith.com/blog/what
 Deep Learning framework:    Pytorch (What is [Pytorch?](https://www.javatpoint.com/pytorch-introduction))\
 GPU Driver Version:  [515.76](https://www.nvidia.com/en-us/drivers/results/193095/)\
 Python version: Python 3.9.13\
-cudatoolkit version: 11.6 [what is cudatoolkit?](https://anaconda.org/nvidia/cudatoolkit)
+cudatoolkit version: 11.6.   [what is cudatoolkit?](https://anaconda.org/nvidia/cudatoolkit)
 
 **1. Install Anaconda distribution.**
 
