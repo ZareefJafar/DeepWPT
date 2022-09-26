@@ -1,7 +1,11 @@
 # DeepWPT
 
-## Environment setup
+### Hardware
+GPU: ZOTAC GAMING GeForce RTX 3060 Ti Twin Edge
+CPU: AMD Ryzen 9 3900X desktop processor
+RAM: 16GB 3200MHz DDR4
 
+## Environment setup
 Operating system: Tested on Ubuntu 20.04.5 LTS (Ubuntu is a popular free and open-source Linux-based operating system)\
 Package management system:  conda (click [here](https://cloudsmith.com/blog/what-is-conda/) to more about conda )\
 Deep Learning framework:    Pytorch (What is [Pytorch?](https://www.javatpoint.com/pytorch-introduction))
