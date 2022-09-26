@@ -30,3 +30,5 @@ Go to the pytorch official [website](https://pytorch.org/) and select the follow
 Copy the ```conda install pytorch torchvision torchaudio cudatoolkit=11.6 -c pytorch -c conda-forge``` in the terminal and run.
 
 ## Code explanation
+### Wavelet packet transform:
+The original Implementation of "Wavelet packet transform" of our paper is available [here](https://github.com/hhb072/WaveletSRNet)
