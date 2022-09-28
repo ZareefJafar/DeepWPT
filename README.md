@@ -44,3 +44,12 @@ paper: "[Moiré Photo Restoration Using Multiresolution
 Convolutional Neural Networks](https://arxiv.org/abs/1805.02996)"
 
 [Code](https://github.com/ZhengJun-AI/MoirePhotoRestoration-MCNN)
+
+images = 130,307 pair (90% for training and 10% testing) of RGB images.
+
+Type: PNG
+
+Resolution: 256 * 256
+
+Created from: [ImageNet ISVRC 2012 dataset](https://image-net.org/download.php)
+
