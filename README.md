@@ -32,4 +32,8 @@ Copy the ```conda install pytorch torchvision torchaudio cudatoolkit=11.6 -c pyt
 
 ## Code explanation
 ### Wavelet packet transform:
-The original Implementation of "Wavelet packet transform" of our paper is available [here](https://github.com/hhb072/WaveletSRNet)
+The original Implementation of "Wavelet packet transform" of our paper is available [code](https://github.com/hhb072/WaveletSRNet/blob/f0219900056c505143d9831b44a112453784b2a7/networks.py)
+
+
+### Loss Function:
+The original Implementation of loss function we used : “Wavelet Domain Generative Adversarial Network for Multi-Scale Face Hallucination", [code](https://github.com/hhb072/WaveletSRNet/blob/f0219900056c505143d9831b44a112453784b2a7/main.py)
