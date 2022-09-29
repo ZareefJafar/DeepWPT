@@ -56,3 +56,9 @@ Resolution: 256 * 256
 
 Created from: [ImageNet ISVRC 2012 dataset](https://image-net.org/download.php)
 
+
+### Directional Residual Dense Network:
+
+Used the e used the Residual Dense Block (RDB) from “[Residual Dense Network for Image Super-Resolution](https://arxiv.org/abs/1802.08797)”
+
+Code of [RDB](https://github.com/yjn870/RDN-pytorch)
