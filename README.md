@@ -37,8 +37,9 @@ The original Implementation of "Wavelet packet transform" of our paper is from "
 
 Some resource to understand wavelet and it's different implementation:
 
-[Wavelets: a mathematical microscope](https://www.youtube.com/watch?v=jnxqHcObNK4&t=1405s)
-[Discrete Wavelet Transform of Images (Haar and Hadamard)](https://www.youtube.com/watch?v=1BTyUIPMMbw&t=1655s)
+1. [Wavelets: a mathematical microscope](https://www.youtube.com/watch?v=jnxqHcObNK4&t=1405s)
+
+2. [Discrete Wavelet Transform of Images (Haar and Hadamard)](https://www.youtube.com/watch?v=1BTyUIPMMbw&t=1655s)
 
 
 ### Loss Function:
