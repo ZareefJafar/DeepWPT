@@ -59,7 +59,7 @@ images = 130,307 pair (90% for training and 10% testing) of RGB images.
 
 Type: PNG
 
-Resolution: 256 * 256
+Resolution: average 850x850. Converted to 256x256 for training and testing.  
 
 Created from: [ImageNet ISVRC 2012 dataset](https://image-net.org/download.php)
 
