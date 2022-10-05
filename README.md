@@ -51,28 +51,29 @@ We did not use Attention Loss because there is no IRNN is used.
 
 1. loss_p= preceptual loss
 
-  ABOUT:
-  
-  We define two perceptual loss functions that measure high-level perceptual and
-  semantic differences between images. They make use of a loss network φ pre-
-  trained for image classification, meaning that these perceptual loss functions are
-  themselves deep convolutional neural networks. In all our experiments φ is the
-  16-layer VGG network pretrained on the ImageNet dataset.
+    ABOUT:
 
-  Perceptual loss functions are used when comparing two different images that look similar, 
-  like the same photo but shifted by one pixel. The function is used to compare high level differences, like content and style discrepancies, between       images
+    We define two perceptual loss functions that measure high-level perceptual and
+    semantic differences between images. They make use of a loss network φ pre-
+    trained for image classification, meaning that these perceptual loss functions are
+    themselves deep convolutional neural networks. In all our experiments φ is the
+    16-layer VGG network pretrained on the ImageNet dataset.
 
-  [SOURCE](https://link.springer.com/article/10.1007/s10845-022-02003-1)
+    Perceptual loss functions are used when comparing two different images that look similar, 
+    like the same photo but shifted by one pixel. The function is used to compare high level differences, like content and style discrepancies, between       images
 
-  [CODE](https://github.com/tyui592/Perceptual_loss_for_real_time_style_transfer)
+    [SOURCE](https://link.springer.com/article/10.1007/s10845-022-02003-1)
+
+    [CODE](https://github.com/tyui592/Perceptual_loss_for_real_time_style_transfer)
   
   
   
 2. loss_sr= loss MAE(mean absolute error) for SR or Short Reach or high-frequency components.
+
    loss_lr=  loss MAE(mean absolute error) for LR or Long Reach or low-frequency components.
    
     [SOURCE](https://link.springer.com/article/10.1007/s11263-019-01154-8)
-    
+
     [CODE](https://github.com/hhb072/WaveletSRNet )
 
 
@@ -81,7 +82,7 @@ We did not use Attention Loss because there is no IRNN is used.
 
 
     ABOUT:
-    
+
     Minimizing MSE loss can hardly capture high-frequency
     texture details to produce satisfactory perceptual results.
     As texture details can be depicted by high-frequency wave-
@@ -93,7 +94,7 @@ We did not use Attention Loss because there is no IRNN is used.
     [SOURCE](https://link.springer.com/article/10.1007/s11263-019-01154-8)
 
     [CODE](https://github.com/hhb072/WaveletSRNet )
- 
+
 
 
 
