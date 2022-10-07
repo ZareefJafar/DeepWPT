@@ -31,6 +31,19 @@ Go to the pytorch official [website](https://pytorch.org/) and select the follow
 Copy the ```conda install pytorch torchvision torchaudio cudatoolkit=11.6 -c pytorch -c conda-forge``` in the terminal and run.
 
 ## Code explanation
+### Video series for understanding some theoretical concepts
+
+Neural network, activation function, foward propagation, backpropagaton: 
+[3Blue1Brown nn playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
+
+### Some terminologies:
+**gc**: Growth channel or intermediate channels. Growth rate represents the dimension of output feature mapping Defined and tested by Residual Dense Network for Image Super-Resolution, CVPR 18
+
+**1x1 convolutions**: Used to Increase or decrease  Feature Map size. (e.g from 48 to 64 channels and from 64 channels to 48)
+
+**stride=1** means the kernel/filter will move one pixel  at a time.
+
+
 ### Wavelet packet transform:
 The original Implementation of "Wavelet packet transform" of our paper is from "[Wavelet Domain Generative Adversarial Network for Multi-Scale Face Hallucination](https://link.springer.com/article/10.1007/s11263-019-01154-8)",  [code](https://github.com/hhb072/WaveletSRNet/blob/f0219900056c505143d9831b44a112453784b2a7/networks.py)
 
