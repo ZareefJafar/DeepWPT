@@ -41,12 +41,15 @@ Neural network, activation function, foward propagation, backpropagaton:
 
 **1x1 convolutions**: Used to Increase or decrease  Feature Map size. (e.g from 48 to 64 channels and from 64 channels to 48)
 
-**stride=1** means the kernel/filter will move one pixel  at a time.
+**stride=1**: means the kernel/filter will move one pixel  at a time.
 
 **Parameters vs hyperparameters**: see this [video](https://www.youtube.com/watch?v=V4AcLJ2cgmU)
 
 
-**VGG19** what is [vgg19][https://deepchecks.com/glossary/vggnet/]? 
+**VGG19**: what is [vgg19][https://deepchecks.com/glossary/vggnet/]? 
+
+**Epoch**: epochs is a hyperparameter that defines the number times that the learning 
+algorithm will work through the entire training dataset.(We set it to 50)
 
 ### Wavelet packet transform:
 The original Implementation of "Wavelet packet transform" of our paper is from "[Wavelet Domain Generative Adversarial Network for Multi-Scale Face Hallucination](https://link.springer.com/article/10.1007/s11263-019-01154-8)",  [code](https://github.com/hhb072/WaveletSRNet/blob/f0219900056c505143d9831b44a112453784b2a7/networks.py)
