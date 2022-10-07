@@ -43,6 +43,8 @@ Neural network, activation function, foward propagation, backpropagaton:
 
 **stride=1** means the kernel/filter will move one pixel  at a time.
 
+**Parameters vs hyperparameters**: see this [video](https://www.youtube.com/watch?v=V4AcLJ2cgmU)
+
 
 ### Wavelet packet transform:
 The original Implementation of "Wavelet packet transform" of our paper is from "[Wavelet Domain Generative Adversarial Network for Multi-Scale Face Hallucination](https://link.springer.com/article/10.1007/s11263-019-01154-8)",  [code](https://github.com/hhb072/WaveletSRNet/blob/f0219900056c505143d9831b44a112453784b2a7/networks.py)
