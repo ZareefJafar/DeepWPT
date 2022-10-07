@@ -68,14 +68,15 @@ We did not use Attention Loss because there is no IRNN is used.
 
     ABOUT:
 
-    We define two perceptual loss functions that measure high-level perceptual and
-    semantic differences between images. They make use of a loss network φ pre-
+    Perceptual loss functions are used when comparing two different images that look similar, 
+    like the same photo but shifted by one pixel. The function is used to compare high level differences.
+    
+    In instances where we want to know if two images look like each-other, we could use a mathematical equation to compare the images but this is             unlikely to produce good results. Two images can look the same to humans but be very different mathematically (i.e. if there is a picture of a man vs     the same picture of the man but the man is shifted one pixel to the left). Using a perceptual loss function solves this issue by taking a neural         network that recognizes features of the image; these can include autoencoders, image classifiers, etc.
+    
+    They make use of a loss network φ pre-
     trained for image classification, meaning that these perceptual loss functions are
     themselves deep convolutional neural networks. In all our experiments φ is the
     16-layer VGG network pretrained on the ImageNet dataset.
-
-    Perceptual loss functions are used when comparing two different images that look similar, 
-    like the same photo but shifted by one pixel. The function is used to compare high level differences, like content and style discrepancies, between       images
 
     [SOURCE](https://link.springer.com/article/10.1007/s10845-022-02003-1)
 
