@@ -51,6 +51,10 @@ Neural network, activation function, foward propagation, backpropagaton:
 **Epoch**: epochs is a hyperparameter that defines the number times that the learning 
 algorithm will work through the entire training dataset.(We set it to 50)
 
+
+**optimizer_G.zero_grad()** [explain](https://stackoverflow.com/questions/48001598/why-do-we-need-to-call-zero-grad-in-pytorch)
+
+
 ### Wavelet packet transform:
 The original Implementation of "Wavelet packet transform" of our paper is from "[Wavelet Domain Generative Adversarial Network for Multi-Scale Face Hallucination](https://link.springer.com/article/10.1007/s11263-019-01154-8)",  [code](https://github.com/hhb072/WaveletSRNet/blob/f0219900056c505143d9831b44a112453784b2a7/networks.py)
 
