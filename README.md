@@ -9,6 +9,11 @@ RAM: 16GB 3200MHz DDR4
 Operating system: Tested on Ubuntu 20.04.5 LTS (Ubuntu is a popular free and open-source Linux-based operating system)\
 Package management system:  conda (click [here](https://cloudsmith.com/blog/what-is-conda/) to more about conda )\
 Deep Learning framework:    Pytorch (What is [Pytorch?](https://www.javatpoint.com/pytorch-introduction))\
+other packages imported:  1. 
+                          2.
+                          3.
+                          4.
+                          \
 GPU Driver Version:  [515.76](https://www.nvidia.com/en-us/drivers/results/193095/)\
 Python version: Python 3.9.13\
 cudatoolkit version: 11.6.   [what is cudatoolkit?](https://anaconda.org/nvidia/cudatoolkit)
