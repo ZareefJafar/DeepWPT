@@ -8,15 +8,9 @@ import torch.nn as nn
 from PIL import Image
 from torch.autograd import Variable
 import torchvision.models.vgg as vgg
-#from model_demoiregan2 import *
-#from model_pixpix import *
-#from model_partialcov import *
-#from model_newunet import *
-from model_dense import *
 import pdb
 from torchvision import transforms
 from skimage import measure
-#from pixtopix import LossNetwork
 from skimage import color
 
 
