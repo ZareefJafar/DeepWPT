@@ -9,62 +9,62 @@ RAM: 16GB 3200MHz DDR4
 Operating system: Tested on Ubuntu 20.04.5 LTS (Ubuntu is a popular free and open-source Linux-based operating system)\
 Package management system:  conda (click [here](https://cloudsmith.com/blog/what-is-conda/) to more about conda )\
 Deep Learning framework:    Pytorch (What is [Pytorch?](https://www.javatpoint.com/pytorch-introduction))\
-other packages imported:
+other packages imported:\
 
-import argparse
-import os
-import cv2
-import numpy as np
-import torch
-import torch.nn.functional as F
-import torch.nn as nn
-from PIL import Image
-from torch.autograd import Variable
-import torchvision.models.vgg as vgg
-#from model_demoiregan2 import *
-#from model_pixpix import *
-#from model_partialcov import *
-#from model_newunet import *
-from model_dense import *
-import pdb
-from torchvision import transforms
-from skimage import measure
-#from pixtopix import LossNetwork
-from skimage import color
+import argparse\
+import os\
+import cv2\
+import numpy as np\
+import torch\
+import torch.nn.functional as F\
+import torch.nn as nn\
+from PIL import Image\
+from torch.autograd import Variable\
+import torchvision.models.vgg as vgg\
+#from model_demoiregan2 import *\
+#from model_pixpix import *\
+#from model_partialcov import *\
+#from model_newunet import *\
+from model_dense import *\
+import pdb\
+from torchvision import transforms\
+from skimage import measure\
+#from pixtopix import LossNetwork\
+from skimage import color\
+\
+import torchvision.models.vgg as vgg\
+import torch\
+import torch.nn as nn\
+import torch.nn.functional as F\
+from torchvision import datasets\
+import torchvision.transforms as transforms\
+from torchvision.utils import save_image\
+import torchvision.models.vgg as vgg\
+from torch.utils.data import DataLoader\
+from torch.autograd import Variable\
+from torch.nn.parameter import Parameter\
+from torch.nn.functional import pad\
+from torch.nn.modules import Module\
+from torch.nn.modules.utils import _single, _pair, _triple\
+from torch.utils.data import Dataset\
+from torch.utils import data\
 
-import torchvision.models.vgg as vgg
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-from torchvision import datasets
-import torchvision.transforms as transforms
-from torchvision.utils import save_image
-import torchvision.models.vgg as vgg
-from torch.utils.data import DataLoader
-from torch.autograd import Variable
-from torch.nn.parameter import Parameter
-from torch.nn.functional import pad
-from torch.nn.modules import Module
-from torch.nn.modules.utils import _single, _pair, _triple
-from torch.utils.data import Dataset
-from torch.utils import data
 
-
-#Other libraries
-import argparse
-import os
-import numpy as np
-import math
-import itertools
-import time
-import datetime
-import sys
-from PIL import Image
-import pdb
-import pickle
-import matplotlib 
-matplotlib.rcParams['backend'] = "Agg" 
-import random
+#Other libraries\
+import argparse\
+import os\
+import numpy as np\
+import math\
+import itertools\
+import time\
+import datetime\
+import sys\
+from PIL import Image\
+import pdb\
+import pickle\
+import matplotlib\ 
+matplotlib.rcParams['backend'] = "Agg"\ 
+import random\
                           
 GPU Driver Version:  [515.76](https://www.nvidia.com/en-us/drivers/results/193095/)\
 Python version: Python 3.9.13\
