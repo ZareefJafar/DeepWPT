@@ -6,92 +6,18 @@ CPU: AMD Ryzen 9 3900X desktop processor\
 RAM: 16GB 3200MHz DDR4
 
 ## Environment setup
-Operating system: Tested on Ubuntu 20.04.5 LTS (Ubuntu is a popular free and open-source Linux-based operating system)\
+Operating system: Tested on Ubuntu 20.04.5 LTS \
 Package management system:  conda (click [here](https://cloudsmith.com/blog/what-is-conda/) to more about conda )\
 Deep Learning framework:    Pytorch (What is [Pytorch?](https://www.javatpoint.com/pytorch-introduction))\
-other packages imported:\
 
-import argparse\
-import os\
-import cv2\
-import numpy as np\
-import torch\
-import torch.nn.functional as F\
-import torch.nn as nn\
-from PIL import Image\
-from torch.autograd import Variable\
-import torchvision.models.vgg as vgg\
-#from model_demoiregan2 import *\
-#from model_pixpix import *\
-#from model_partialcov import *\
-#from model_newunet import *\
-from model_dense import *\
-import pdb\
-from torchvision import transforms\
-from skimage import measure\
-#from pixtopix import LossNetwork\
-from skimage import color\
-\
-import torchvision.models.vgg as vgg\
-import torch\
-import torch.nn as nn\
-import torch.nn.functional as F\
-from torchvision import datasets\
-import torchvision.transforms as transforms\
-from torchvision.utils import save_image\
-import torchvision.models.vgg as vgg\
-from torch.utils.data import DataLoader\
-from torch.autograd import Variable\
-from torch.nn.parameter import Parameter\
-from torch.nn.functional import pad\
-from torch.nn.modules import Module\
-from torch.nn.modules.utils import _single, _pair, _triple\
-from torch.utils.data import Dataset\
-from torch.utils import data\
-
-
-#Other libraries\
-import argparse\
-import os\
-import numpy as np\
-import math\
-import itertools\
-import time\
-import datetime\
-import sys\
-from PIL import Image\
-import pdb\
-import pickle\
-import matplotlib\ 
-matplotlib.rcParams['backend'] = "Agg"\ 
-import random\
                           
 GPU Driver Version:  [515.76](https://www.nvidia.com/en-us/drivers/results/193095/)\
 Python version: Python 3.9.13\
 cudatoolkit version: 11.6.   [what is cudatoolkit?](https://anaconda.org/nvidia/cudatoolkit)
 
-**1. Install Anaconda distribution.**
 
-Follow the [Anaconda Installation page](https://docs.anaconda.com/anaconda/install/linux/) for installation.
-
-**2. Installing pytorch with conda.**
-
-Create a conda environment with ```conda create -n pytorch```
-
-Activate the new environment with ```conda activate pytorch```
-
-Go to the pytorch official [website](https://pytorch.org/) and select the following settings shown in the image.
-
-
-![INSTALL PYTORCH](https://github.com/ZareefJafar/DeepWPT/blob/main/pytorch.png)
-
-Copy the ```conda install pytorch torchvision torchaudio cudatoolkit=11.6 -c pytorch -c conda-forge``` in the terminal and run.
 
 ## Code explanation
-### Video series for understanding some theoretical concepts
-
-Neural network, activation function, foward propagation, backpropagaton: 
-[3Blue1Brown nn playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi)
 
 ### Some terminologies:
 **gc**: Growth channel or intermediate channels. Growth rate represents the dimension of output feature mapping Defined and tested by Residual Dense Network for Image Super-Resolution, CVPR 18
@@ -109,7 +35,6 @@ Neural network, activation function, foward propagation, backpropagaton:
 algorithm will work through the entire training dataset.(We set it to 50)
 
 
-**optimizer_G.zero_grad()** [explain](https://stackoverflow.com/questions/48001598/why-do-we-need-to-call-zero-grad-in-pytorch)
 
 
 ### Wavelet packet transform:
