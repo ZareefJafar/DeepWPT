@@ -8,10 +8,10 @@ RAM: 16GB 3200MHz DDR4
 ## Environment setup
 Operating system: Tested on Ubuntu 20.04.5 LTS \
 Package management system:  conda\
-Deep Learning framework: Pytorch\                    
+Deep Learning framework: Pytorch\
 GPU Driver Version:  [515.76](https://www.nvidia.com/en-us/drivers/results/193095/)\
 Python version: Python 3.9.13\
-cudatoolkit version: 11.6.   [what is cudatoolkit?](https://anaconda.org/nvidia/cudatoolkit)
+cudatoolkit version: 11.6.
 
 
 
