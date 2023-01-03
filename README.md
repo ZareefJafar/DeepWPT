@@ -27,7 +27,7 @@ cudatoolkit version: 11.6.   [what is cudatoolkit?](https://anaconda.org/nvidia/
 **Parameters vs hyperparameters**: see this [video](https://www.youtube.com/watch?v=V4AcLJ2cgmU)
 
 
-**VGG19**: what is [vgg19][https://deepchecks.com/glossary/vggnet/]? 
+**VGG19**: what is [vgg19](https://deepchecks.com/glossary/vggnet/)
 
 **Epoch**: epochs is a hyperparameter that defines the number times that the learning 
 algorithm will work through the entire training dataset.(We set it to 50)
